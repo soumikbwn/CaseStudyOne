@@ -1,0 +1,69 @@
+/* Team card styles */
+.team-card {
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    width: 100%; 
+    height: auto; 
+    max-height: 300px;
+    object-fit: cover; 
+}
+
+.custom-navbar {
+    border-bottom: 5px solid #333;
+}
+
+.navbar {
+    border: 10px;
+}
+
+.container-fluid {
+    background-color: white
+}
+
+.navbar-nav {
+    margin-left: auto;
+    color: aqua;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.navbar-brand {
+    font-weight: 200;
+    font-size: xx-large;
+    border: 3px solid transparent;
+    font-family: fantasy;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-item {
+    border-left: 2px solid #007bff;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.timeline-item h5 {
+    margin: 0;
+    color: #007bff;
+}
